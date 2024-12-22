@@ -1,42 +1,67 @@
-/* styles.css */
-
+/* General styles */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f3f4f6;
-    color: #1f2937;
+    color: #e4e6eb;
+    background-color: #18191a;
 }
 
-header {
-    background: linear-gradient(to right, #24292f, #2c3e50);
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
+/* Navbar */
+.navbar {
+    background-color: #242526;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-    font-size: 3rem;
+.navbar-brand {
     font-weight: 700;
+    color: #f5f6f7;
 }
 
-header p {
-    font-size: 1.25rem;
+.navbar-nav .nav-link {
+    color: #b0b3b8;
+    transition: color 0.3s ease;
 }
 
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to bottom, #242526, #18191a);
+    padding: 100px 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #b0b3b8;
+}
+
+/* Sections */
 section {
-    margin-top: 20px;
+    padding: 60px 0;
 }
 
-footer {
-    background-color: #24292f;
-    color: #e5e7eb;
-    padding: 20px;
+section h2 {
+    font-size: 2rem;
+    font-weight: 700;
     text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
 }
 
-footer a {
-    color: #60a5fa;
+/* Technologies Section */
+.bg-dark {
+    background-color: #242526 !important;
 }
 
-.section-title {
-    color: #4f46e5;
+/* Footer */
+.footer {
+    background-color: #242526;
+    color: #b0b3b8;
+    border-top: 1px solid #3a3b3c;
 }
